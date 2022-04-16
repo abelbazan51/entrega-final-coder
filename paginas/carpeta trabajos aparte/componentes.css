@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100px;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+}
+.grid-container * {
+  box-shadow: -1px 1px 7px 0px red;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: start;
+}
+
+.grid-container {
+  gap: 10px;
+}
